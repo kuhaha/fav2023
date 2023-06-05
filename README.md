@@ -2,7 +2,7 @@
 
 2. fav2023フォルダに入って、以下のコマンドで、パッケージインストール
 ```
-  $ composer install
+composer install
 ```
 3. yaml.phpを実行
   http://localhost/fav2023/yaml.php
