@@ -1,0 +1,330 @@
+=======dat/calendar.yaml============
+array(3) {
+  ["year"]=>
+  int(2023)
+  ["priority"]=>
+  array(3) {
+    [0]=>
+    string(13) "local_workday"
+    [1]=>
+    string(13) "local_holiday"
+    [2]=>
+    string(14) "public_holiday"
+  }
+  ["definitions"]=>
+  array(4) {
+    [0]=>
+    array(2) {
+      ["type"]=>
+      string(14) "public_holiday"
+      ["days"]=>
+      array(17) {
+        ["1-1"]=>
+        string(6) "元日"
+        ["1-2"]=>
+        string(12) "振替休日"
+        ["1-9"]=>
+        string(12) "成人の日"
+        ["2-11"]=>
+        string(18) "建国記念の日"
+        ["2-23"]=>
+        string(15) "天皇誕生日"
+        ["3-21"]=>
+        string(12) "春分の日"
+        ["4-29"]=>
+        string(12) "昭和の日"
+        ["5-3"]=>
+        string(15) "憲法記念日"
+        ["5-4"]=>
+        string(15) "みどりの日"
+        ["5-5"]=>
+        string(15) "こどもの日"
+        ["7-17"]=>
+        string(9) "海の日"
+        ["8-11"]=>
+        string(9) "山の日"
+        ["9-18"]=>
+        string(12) "敬老の日"
+        ["9-23"]=>
+        string(12) "秋分の日"
+        ["10-9"]=>
+        string(18) "スポーツの日"
+        ["11-3"]=>
+        string(12) "文化の日"
+        ["11-23"]=>
+        string(18) "勤労感謝の日"
+      }
+    }
+    [1]=>
+    array(4) {
+      ["type"]=>
+      string(13) "local_holiday"
+      ["month"]=>
+      array(9) {
+        [0]=>
+        int(4)
+        [1]=>
+        int(5)
+        [2]=>
+        int(6)
+        [3]=>
+        int(7)
+        [4]=>
+        int(8)
+        [5]=>
+        int(9)
+        [6]=>
+        int(10)
+        [7]=>
+        int(11)
+        [8]=>
+        int(12)
+      }
+      ["week"]=>
+      array(2) {
+        [0]=>
+        int(2)
+        [1]=>
+        int(4)
+      }
+      ["weekday"]=>
+      array(2) {
+        [0]=>
+        int(2)
+        [1]=>
+        int(3)
+      }
+    }
+    [2]=>
+    array(2) {
+      ["type"]=>
+      string(13) "local_holiday"
+      ["days"]=>
+      array(2) {
+        ["10-12"]=>
+        NULL
+        ["12-15"]=>
+        NULL
+      }
+    }
+    [3]=>
+    array(2) {
+      ["type"]=>
+      string(13) "local_workday"
+      ["days"]=>
+      array(2) {
+        ["10-9"]=>
+        string(21) "月曜特別営業日"
+        ["11-23"]=>
+        string(21) "木曜特別営業日"
+      }
+    }
+  }
+}
+=======dat/reservation.yaml============
+array(2) {
+  [0]=>
+  array(4) {
+    ["date"]=>
+    int(1687132800)
+    ["facility_id"]=>
+    int(12017)
+    ["timeslot"]=>
+    array(1) {
+      [0]=>
+      int(1)
+    }
+    ["event"]=>
+    string(11) "OB講演会"
+  }
+  [1]=>
+  array(4) {
+    ["date"]=>
+    int(1691366400)
+    ["facility_id"]=>
+    int(12216)
+    ["timeslot"]=>
+    array(3) {
+      [0]=>
+      int(2)
+      [1]=>
+      int(3)
+      [2]=>
+      int(4)
+    }
+    ["event"]=>
+    string(21) "合同中間発表会"
+  }
+}
+=======dat/facilities.yaml============
+array(2) {
+  ["timeslots"]=>
+  array(5) {
+    [0]=>
+    array(3) {
+      ["id"]=>
+      int(1)
+      ["start_time"]=>
+      string(4) "9:00"
+      ["end_time"]=>
+      string(5) "10:40"
+    }
+    [1]=>
+    array(3) {
+      ["id"]=>
+      int(2)
+      ["start_time"]=>
+      string(5) "11:00"
+      ["end_time"]=>
+      string(5) "12:40"
+    }
+    [2]=>
+    array(3) {
+      ["id"]=>
+      int(3)
+      ["start_time"]=>
+      string(5) "13:40"
+      ["end_time"]=>
+      string(5) "15:20"
+    }
+    [3]=>
+    array(3) {
+      ["id"]=>
+      int(4)
+      ["start_time"]=>
+      string(5) "15:40"
+      ["end_time"]=>
+      string(5) "17:20"
+    }
+    [4]=>
+    array(3) {
+      ["id"]=>
+      int(5)
+      ["start_time"]=>
+      string(5) "17:40"
+      ["end_time"]=>
+      string(5) "19:20"
+    }
+  }
+  ["facilities"]=>
+  array(2) {
+    [0]=>
+    array(5) {
+      ["id"]=>
+      int(12107)
+      ["name"]=>
+      string(14) "12107番教室"
+      ["building"]=>
+      string(8) "12号館"
+      ["floor"]=>
+      int(1)
+      ["timeslots"]=>
+      array(5) {
+        [0]=>
+        array(3) {
+          ["id"]=>
+          int(1)
+          ["start_time"]=>
+          string(4) "9:00"
+          ["end_time"]=>
+          string(5) "10:40"
+        }
+        [1]=>
+        array(3) {
+          ["id"]=>
+          int(2)
+          ["start_time"]=>
+          string(5) "11:00"
+          ["end_time"]=>
+          string(5) "12:40"
+        }
+        [2]=>
+        array(3) {
+          ["id"]=>
+          int(3)
+          ["start_time"]=>
+          string(5) "13:40"
+          ["end_time"]=>
+          string(5) "15:20"
+        }
+        [3]=>
+        array(3) {
+          ["id"]=>
+          int(4)
+          ["start_time"]=>
+          string(5) "15:40"
+          ["end_time"]=>
+          string(5) "17:20"
+        }
+        [4]=>
+        array(3) {
+          ["id"]=>
+          int(5)
+          ["start_time"]=>
+          string(5) "17:40"
+          ["end_time"]=>
+          string(5) "19:20"
+        }
+      }
+    }
+    [1]=>
+    array(5) {
+      ["id"]=>
+      int(12216)
+      ["name"]=>
+      string(14) "12216番教室"
+      ["building"]=>
+      string(8) "12号館"
+      ["floor"]=>
+      int(2)
+      ["timeslots"]=>
+      array(5) {
+        [0]=>
+        array(3) {
+          ["id"]=>
+          int(1)
+          ["start_time"]=>
+          string(4) "9:00"
+          ["end_time"]=>
+          string(5) "10:40"
+        }
+        [1]=>
+        array(3) {
+          ["id"]=>
+          int(2)
+          ["start_time"]=>
+          string(5) "11:00"
+          ["end_time"]=>
+          string(5) "12:40"
+        }
+        [2]=>
+        array(3) {
+          ["id"]=>
+          int(3)
+          ["start_time"]=>
+          string(5) "13:40"
+          ["end_time"]=>
+          string(5) "15:20"
+        }
+        [3]=>
+        array(3) {
+          ["id"]=>
+          int(4)
+          ["start_time"]=>
+          string(5) "15:40"
+          ["end_time"]=>
+          string(5) "17:20"
+        }
+        [4]=>
+        array(3) {
+          ["id"]=>
+          int(5)
+          ["start_time"]=>
+          string(5) "17:40"
+          ["end_time"]=>
+          string(5) "19:20"
+        }
+      }
+    }
+  }
+}
