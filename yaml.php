@@ -14,7 +14,6 @@ var_dump($result);
 // print_r($result['definitions']);
 
 echo "=======dat/reservation.yaml============\n";
-
 $input = file_get_contents("dat/reservation.yaml");
 $result = Yaml::parse($input);
 var_dump($result);
