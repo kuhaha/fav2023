@@ -28,4 +28,12 @@ facilities:
     building: 12号館
     floor: 2
     timeslots: *ksu_timeslots  
+  - id: 12311
+    name: 12号館大会議室
+    building: 12号館
+    floor: 3
+    time: [9:00, 21:00]
+    timeslots: 
+      length: 10
+      unit: minute  
 
