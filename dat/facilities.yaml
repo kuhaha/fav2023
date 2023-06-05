@@ -18,7 +18,7 @@ timeslots: &ksu_timeslots
 
 # facilities(施設)
 facilities:
-  - id: 12105
+  - id: 12107
     name: 12107番教室
     building: 12号館
     floor: 1
