@@ -1,0 +1,9 @@
+- date: 2023-6-19
+  facility_id: 12017
+  timeslot: [1]
+  event: OB講演会
+  
+- date: 2023-8-7
+  facility_id: 12216
+  timeslot: [2,3,4]
+  event: 合同中間発表会
