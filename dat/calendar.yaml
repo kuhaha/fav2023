@@ -1,11 +1,4 @@
-year: 2023
-
-priority: # ある日が、休日、営業両方となった場合、最終判断を決める優先順
-  - local_workday
-  - local_holiday
-  - public_holiday
-
-definitions:
+2023 :
   - type: public_holiday
     days: 
       1-1: 元日
@@ -31,10 +24,10 @@ definitions:
     week: [2,4] # 毎月第2第4週
     weekday: [2,3] # 火、水
 
-  - type: local_holiday # 定休日
+  - type: local_holiday # 臨時休業日
     days:
-      10-12: 
-      12-15:
+      10-12: 臨時休業
+      12-15: 臨時休業
 
   - type: local_workday
     days:
